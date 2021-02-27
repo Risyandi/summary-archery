@@ -3,7 +3,8 @@
     src: url('font/din-black.ttf') format('truetype');
 }
 
-html {
+html,
+body {
     overflow-x: hidden;
 }
 
@@ -95,7 +96,7 @@ html {
     object-fit: contain;
     z-index: 2;
     position: absolute;
-    top: 2300px;
+    top: 2400px;
     right: 50px;
 
 }
@@ -207,7 +208,6 @@ html {
 
 .title-awg-3 {
     width: 361px;
-    height: 98px;
     object-fit: contain;
     position: absolute;
     z-index: 2;
@@ -425,7 +425,7 @@ html {
     }
 
     .ico-logo-back-tranparent {
-        width: 500px !important;
+        width: 400px !important;
         top: 400px !important;
     }
 
@@ -467,12 +467,25 @@ html {
         text-align: center;
         margin: 0px !important;
     }
-    
+
     .text-awg-2 {
         top: 1600px !important;
         font-size: 15px !important;
         width: 300px;
         text-align: center;
         margin: 0px !important;
+    }
+}
+
+@media only screen and (min-width: 427px) {
+    .title-awg-1,
+    .title-awg-2{
+        position: relative;
+        left: -109% !important;
+    }
+    .text-awg-1,
+    .text-awg-2 {
+        position: relative;
+        left: -90% !important;
     }
 }
