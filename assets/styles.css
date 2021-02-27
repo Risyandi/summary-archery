@@ -334,34 +334,34 @@ body {
 
 
 .text-alamat-1 {
-    height: 31px;
     font-family: Poppins;
     font-size: 24px;
     font-weight: 600;
-    top: 5200px;
+    top: 5180px;
     left: 15%;
+    width: 1000px;
 }
 
 .text-alamat-2 {
+    width: 1000px;
     font-style: italic;
-    height: 125px;
     font-size: 96px;
     top: 5200px;
     left: 13%;
 }
 
 .text-alamat-3 {
-    height: 47px;
+    width: 1000px;
     font-size: 36px;
-    top: 5350px;
+    top: 5330px;
     left: 15%;
 }
 
 
 .text-alamat-4 {
-    height: 47px;
+    width: 1000px;
     font-size: 36px;
-    top: 5450px;
+    top: 5400px;
     left: 13%;
 }
 
@@ -492,7 +492,7 @@ body {
         top: 2000px !important;
         display: inline;
         overflow: auto;
-    } 
+    }
 }
 
 @media only screen and (min-width: 427px) {
